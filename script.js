@@ -4,3 +4,4 @@ function myFunc(){
     var myVar1 = document.querySelector("#trans");
     myVar1.style.display = "block";
 }
+document.title = "Payoneer Bank";
