@@ -1,0 +1,88 @@
+.login-page{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.my_form{
+    height: 50vh;
+    width: 150vh;
+    background: rgba(236, 226, 226, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 40px rgba(0,0,0,0.30);
+}
+.my_btn_style{
+    padding: 10px 20px;
+    margin-top: 5px;
+    background: green;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+.em_p{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+/* Transiction page */
+.transition_page{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+      
+}
+.cash_section{
+    display: flex;
+    background: #fff;
+    justify-content: center;   
+    flex-wrap: wrap; 
+}
+.cash_section > .my_t_div{
+    margin: 10px;
+    padding: 24px 71px;
+    border-radius: 10px;
+}
+.deposit{
+    background: #8e44ad;
+    color: #fff;
+}
+.withdraw{
+    background: #e67e22;
+
+    color: #fff;
+}
+.balance{
+    background: #f39c12;
+    color: #fff;
+
+}
+.bottom-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.bottom-div > .bottom{
+    margin: 10px;
+    padding: 74px 180px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 40px rgba(0,0,0,0.30);
+}
